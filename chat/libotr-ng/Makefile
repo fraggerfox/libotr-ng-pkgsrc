@@ -28,7 +28,7 @@ GNU_CONFIGURE=	yes
 INSTALL_TARGET=	install-strip
 
 pre-configure:
-	cd ${WRKSRC} && autoreconf -vif
+	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} autoreconf -vif
 
 .include "../../chat/libotr/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
