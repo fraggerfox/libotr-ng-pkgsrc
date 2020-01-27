@@ -19,7 +19,7 @@ DEPENDS=	glib2>=2.18:../../devel/glib2 \
 		libotr>=4.0.0:../../chat/libotr \
 		libsodium>=1.0.0:../../security/libsodium
 
-USE_TOOLS+=	autoconf automake gmake m4 pkg-config
+USE_TOOLS+=	autoreconf autoconf automake gmake m4 pkg-config
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
 
