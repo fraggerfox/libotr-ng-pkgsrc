@@ -6,3 +6,4 @@ SHA512 (libotr-ng-0.0.0.20200303-cd983b2d82b47582f9ce637ef610fbbb438e392e.tar.gz
 Size (libotr-ng-0.0.0.20200303-cd983b2d82b47582f9ce637ef610fbbb438e392e.tar.gz) = 241900 bytes
 SHA1 (patch-src_alloc.c) = 259708a7cd1e36cf51ca12225aed22a14b9e64d7
 SHA1 (patch-src_client.c) = 818a3e6b2c259a08e37704bff66c4bc96b623147
+SHA1 (patch-src_client__profile.c) = 41272a148bef15941945bf0ea952538c1329b449
